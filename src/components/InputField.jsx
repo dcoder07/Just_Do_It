@@ -27,7 +27,7 @@ const InputField = () => {
     <div className='w-full'>
       <div className='relative mx-auto max-w-md'>
         <input
-          className='py-2 rounded-full w-full'
+          className='px-4 py-2 rounded-full w-full'
           onChange={handleChange}
         />
         <button
@@ -38,7 +38,7 @@ const InputField = () => {
         </button>
       </div>
 
-      <div className='flex justify-center items-center mt-8 max-w-3xl mx-auto px-0 w-full'>
+      <div className='flex justify-center items-center mt-8 max-w-3xl mx-auto px-12 w-full'>
         <div className='taskbg mb-10 rounded-2xl w-full min-h-[80vh] p-4 px-12'>
           <ul className='text-3xl ml-12 mt-8 list-disc'>
             {itemArray.map((items, index) => {
