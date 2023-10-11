@@ -25,7 +25,7 @@ const InputField = () => {
 
   return (
     <div className='w-full'>
-      <div className='relative mx-6 sm:mx-auto max-w-md'>
+      <div className='relative mx-6 sm:mx-auto max-w-md mt-5 sm:mt-12'>
         <input
           className='px-4 py-2 rounded-full w-full'
           onChange={handleChange}
@@ -40,7 +40,7 @@ const InputField = () => {
 
       <div className='flex justify-center items-center mt-8 max-w-3xl mx-auto px-12 w-full'>
         <div className='taskbg mb-10 rounded-2xl w-[80vw] max-w-auto m-5 min-h-[80vh] p-4 sm:px-12'>
-          <ul className='text-4xl ml-12 mt-8 list-disc'>
+          <ul className='sm:text-4xl text-2xl ml-12 mt-8 list-disc'>
             {itemArray.map((items, index) => {
               return (
                 <TaskSheet
