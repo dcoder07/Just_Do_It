@@ -27,6 +27,8 @@ const InputField = () => {
     <div className='w-full'>
       <div className='relative mx-6 sm:mx-auto max-w-md mt-5 sm:mt-12'>
         <input
+          type="text"
+          value={item}
           className='px-4 py-2 rounded-full w-full'
           onChange={handleChange}
         />
